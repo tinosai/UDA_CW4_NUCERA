@@ -44,7 +44,7 @@ On a Mac, we simply set:
 ```{python}
 font = ImageFont.truetype("Tahoma.ttf",18)
 ```
-But you need to make sure that, on your machine, this font is properly included. For a list of font on your machine, simply run:
+But you need to make sure that, on your machine, this font is properly included. For a list of fonts on your machine, simply run:
 ```{python}
 import matplotlib.font_manager
 matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
