@@ -30,4 +30,25 @@ Along with the compulsory files, we also provide some non-compulsory files which
   
 * `preprocessing.py` is a script which includes all the commands we used to go from the original data set downloaded from [Barbu's website](http://adrianbarburesearch.blogspot.com/p/renoir-dataset.html) to `dataset.parquet`. Make sure to modify the string `ENTER_ALIGNED_PICTURES_FOLDER_HERE` with the full path of the aligned picture folders on your machine if you decide to run the preprocessing step.
 
+## Other Information:
+In the notebook, `UDA_FinalProject_NUCERA.ipynb`, the images are exported using the LaTex style for the labels. Change:
+```{python}
+plt.rcParams["text.usetex"] = True
+```
+to:
+```{python}
+plt.rcParams["text.usetex"] = False
+```
+If LaTex is not available on your machine. In addition, in Section 5.2.1, when the surveys are exported, the setup of a font becomes necessary.
+On a Mac, we simply set:
+```{python}
+font = ImageFont.truetype("Tahoma.ttf",18)
+```
+But you need to make sure that, on your machine, this font is properly included. For a list of font on your machine, simply run:
+```{python}
+import matplotlib.font_manager
+matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
+```
+And replace `Tahoma.ttf` with the full path of the font you wish to use.
+
 This completes the file description.
