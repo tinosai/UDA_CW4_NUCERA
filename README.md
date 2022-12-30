@@ -1,15 +1,5 @@
-# UDA_CW4_NUCERA
+# Unstructured Data Analysis: Final Coursework - Fortunato Nucera
 Repository for the final project of Unstructured Data Analysis (2022)
----
-title: "Unstructured Data Analysis - Final Coursework"
-author: "Fortunato Nucera, CID: 02165798"
-date: "2022-12-30"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 I declare that I have worked on this assessment independently. 
 
