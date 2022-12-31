@@ -30,6 +30,8 @@ Along with the compulsory files, we also provide some non-compulsory files which
   
 * `preprocessing.py` is a script which includes all the commands we used to go from the original data set downloaded from [Barbu's website](http://adrianbarburesearch.blogspot.com/p/renoir-dataset.html) to `dataset.parquet`. Make sure to modify the string `ENTER_ALIGNED_PICTURES_FOLDER_HERE` with the full path of the aligned picture folders on your machine if you decide to run the preprocessing step.
 
+* `img_noisy.png` and `img_ref.png` are used to calculate the loss for a different camera and a different image size on a single picture, and show how U-Net may in some cases perform worse than the competitors.
+
 ## Other Information:
 In the notebook, `UDA_FinalProject_NUCERA.ipynb`, the images are exported using the LaTex style for the labels. Change:
 ```{python}
