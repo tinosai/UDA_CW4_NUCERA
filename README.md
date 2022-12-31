@@ -34,6 +34,13 @@ The notebook will automatically create and populate a `survey` folder, therefore
 
 * `img_noisy.png` and `img_ref.png` are used to calculate the loss for a different camera and a different image size on a single picture, and show how U-Net may - in some cases - may exhibit a worse performance than its competitors.
 
+## How to run the code
+In order to run the code, you should:  
+- clone the current repository to your local working directory.
+- decide on whether you want to train the neural network from scratch. If you want to use the pre-defined weights, you can simply download them 
+from the OneDrive link provided in the appropriate section and place the file in the working directory (recommended).
+- run the jupyter notebook `UDA_FinalProject_NUCERA.ipynb`. Please pay attention to the extra instructions provided in `Other Information` below.
+
 ## Other Information:
 In the notebook, `UDA_FinalProject_NUCERA.ipynb`, the images are exported using the LaTex style for the labels. Change:
 ```{python}
@@ -55,4 +62,5 @@ matplotlib.font_manager.findSystemFonts(fontpaths=None, fontext='ttf')
 ```
 And replace `/System/Library/Fonts/Supplemental/Tahoma.ttf` with the full path of the font you wish to use.
 
-This completes the file description.
+
+This completes the `README` file.
