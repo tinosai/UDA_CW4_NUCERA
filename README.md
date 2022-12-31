@@ -41,6 +41,9 @@ In order to run the code, you should:
 from the OneDrive link provided in the appropriate section and place the file in the working directory (recommended).
 - run the jupyter notebook `UDA_FinalProject_NUCERA.ipynb`. Please pay attention to the extra instructions provided in `Other Information` below.
 
+Also, even though not compulsory, the use of a GPU is recommended. We run the code on both a MacBook Pro 2021 16-inch with 64GB of memory and 10 cores and 
+on a workstation in the cloud featuring 200GB of memory, 30 cores, and an nVidia A100 GPU with 40GB of dedicated memory. Use an nVidia GPU for testing if possible.
+
 ## Other Information:
 In the notebook, `UDA_FinalProject_NUCERA.ipynb`, the images are exported using the LaTex style for the labels. Change:
 ```{python}
